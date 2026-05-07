@@ -1,6 +1,11 @@
-
+# ignore everything
 *
 
+# but keep .gitignore itself
 !.gitignore
+
+# keep src folder
 !src/
-!src/**/*
+
+# keep everything inside src
+!src/**
